@@ -36,4 +36,5 @@ try:
 
 finally:
     time.sleep(15)
+    print("Test DONE!")
     browser.quit()
