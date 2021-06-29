@@ -28,7 +28,7 @@ try:
     input2.send_keys("Petrov")
     input3 = browser.find_element_by_class_name("form-control.city")
     input3.send_keys("Smolensk")
-    input4 = browser.find_element_by_id("countryQWERTYUISDFGHJK")
+    input4 = browser.find_element_by_id("country")
     input4.send_keys("Russia")
 
     button = browser.find_element_by_xpath("/html/body/div/form/div/button[text() = \"Submit\"]")
